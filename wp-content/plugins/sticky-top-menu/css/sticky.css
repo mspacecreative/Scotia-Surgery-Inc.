@@ -9,6 +9,7 @@
 	z-index: 9999;
 	transform: translateY(-53px);
 	transition: 0.25s ease-in-out;
+	visibility: hidden;
 }
 
 .stickymenu .menu-main-menu-container {
@@ -18,6 +19,7 @@
 .stickymenu.reveal {
 	transform: translateY(0);
 	transition: 0.25s ease-in-out;
+	visibility: visible;
 }
 
 .stickymenu ul {
