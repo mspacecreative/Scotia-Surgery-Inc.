@@ -13,6 +13,8 @@ $(function() {
   });
 });
 
+$('body').bind('touchstart', function () {});
+
 // STICKY MENU
 $(document).scroll(function() {
   var y = $(this).scrollTop();
