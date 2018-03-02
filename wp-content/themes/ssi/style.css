@@ -1121,15 +1121,11 @@ html .service, html .service:nth-of-type(1), html .service:nth-of-type(2) {
 }
 
 .viewport-banner-title {
-  padding: 10% 15% 0;
+  padding: 10% 5% 0;
 }
 
 #banner-images-container {
 	height: auto;
-}
-
-.viewport-banner-title {
-	padding: 0 5%;
 }
 
 .service {
@@ -1197,8 +1193,6 @@ html .service, html .service:nth-of-type(1), html .service:nth-of-type(2) {
 	font-size: 40px;
 }
 }
-
-padding: 10% 15% 0;
 
 @media (max-width: 414px) and (orientation: portrait) {
 
