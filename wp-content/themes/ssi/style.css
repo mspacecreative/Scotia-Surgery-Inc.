@@ -215,6 +215,7 @@ h1.rule:before, h1.rule:after {
 	font-weight: 900;
 	color: rgba(0, 150, 200, .75);
 	margin: 0;
+	line-height: 1.15em;
 }
 
 #logo-container {
