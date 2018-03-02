@@ -13,7 +13,7 @@ $(function() {
   });
 });
 
-$('body').bind('touchstart', function () {});
+$('.photo-gallery').bind('touchstart', function () {});
 
 // STICKY MENU
 $(document).scroll(function() {
