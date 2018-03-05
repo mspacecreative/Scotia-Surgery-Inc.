@@ -12,33 +12,33 @@
 		<div id="wrapper">
 			<div id="container">
 				<div id="header" class="modern">
+					<div id="mobile-buttons" class="clearfix">
+						<div class="button-1">
+							<div class="inner-button">
+								<div class="cell">
+									<a href="tel:19024053430" class="buttons">Call</a>
+								</div>
+							</div>
+						</div>
+						<div class="button-2">
+							<div class="inner-button">
+								<div class="cell">
+									<a href="mailto:info@scotiasurgery.com" class="buttons">Email</a>
+								</div>
+							</div>
+						</div>
+						<div class="button-3">
+							<div class="inner-button">
+								<div class="cell">
+									<a href="#map-container" class="buttons">Location</a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="inner clearfix">
 						<div id="logo-container">
 							<a href="<?php echo home_url(); ?>"/><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="logo" />
 							</a>
-						</div>
-						<div id="mobile-buttons" class="clearfix">
-							<div class="button-1">
-								<div class="inner-button">
-									<div class="cell">
-										<a href="tel:19024053430" class="buttons">Call</a>
-									</div>
-								</div>
-							</div>
-							<div class="button-2">
-								<div class="inner-button">
-									<div class="cell">
-										<a href="mailto:info@scotiasurgery.com" class="buttons">Email</a>
-									</div>
-								</div>
-							</div>
-							<div class="button-3">
-								<div class="inner-button">
-									<div class="cell">
-										<a href="#map-container" class="buttons">Location</a>
-									</div>
-								</div>
-							</div>
 						</div>
 						<?php $args = array(
 						'theme_location' => 'primary'

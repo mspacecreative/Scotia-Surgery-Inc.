@@ -17,6 +17,8 @@ $('.mobile-nav li > a').click(function() {
 	$('.hamburger, body').toggleClass('is-active');
 });
 
+$('.hamburger').css('top', $('#mobile-buttons').outerHeight() + 10);
+
 // HAMBURGER VERTICAL ALIGN
 function hamburgerIcon() {
 	$('.hamburger').css('height', $('#logo-container').height());
