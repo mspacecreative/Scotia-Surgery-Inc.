@@ -79,19 +79,11 @@
 		
 		<div class="photo-gallery">
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/001.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/002.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/006.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/009.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/018.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/028.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/030.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/036.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/037.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/044.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/046.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/048.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/059.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/061.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/064.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/080.jpg') no-repeat center center scroll;"></div>
 		</div>
