@@ -69,6 +69,20 @@
 </div>
 <!--SERVICES-->
 
+<!-- AOSA CALLOUT -->
+<div id="aosa-section">
+	<a href="https://atlanticoralsurgeryassociates.com/" target="_blank" class="aosa-link"></a>
+	<div class="inner clearfix">
+		<div class="aosa-logo">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/logo/aosa-logo.png" alt="Atlantic Oral Surgery Associates" />
+		</div>
+		<div class="aosa-title">
+			<h4>Atlantic Oral Surgery Associates Website &raquo;</h4>
+		</div>
+	</div>
+</div>
+<!-- /AOSA CALLOUT -->
+
 <!--BANNER CONTAINER-->
 <div id="banner-container">
 
@@ -81,9 +95,9 @@
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/001.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/006.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/018.jpg') no-repeat center center scroll;"></div>
-			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/036.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/037.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/048.jpg') no-repeat center center scroll;"></div>
+			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/036.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/064.jpg') no-repeat center center scroll;"></div>
 			<div style="background: url('<?php echo get_template_directory_uri(); ?>/images/slider/080.jpg') no-repeat center center scroll;"></div>
 		</div>
