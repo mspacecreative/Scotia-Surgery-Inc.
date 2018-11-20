@@ -4,10 +4,10 @@
 	<h1 style="display:none;"></h1>
 
 	<div id="icon-tools" class="icon32"><br/></div>
-	<h1><?php echo $this->get_plugin_title(); ?></h1>
+	<h1><?php _e( 'Migrate DB', 'wp-migrate-db' ); ?></h1>
 
 	<h2 class="nav-tab-wrapper">
-		<?php $this->plugin_tabs(); ?>
+		<?php $this->plugin_tabs() ?>
 	</h2>
 
 	<?php do_action( 'wpmdb_notices' ); ?>
@@ -32,9 +32,13 @@
 		<?php _e( "<strong>Internet Explorer Not Supported</strong> &mdash; Less than 2% of our customers use IE, so we've decided not to spend time supporting it. We ask that you use Firefox or a Webkit-based browser like Chrome or Safari instead. If this is a problem for you, please let us know.", 'wp-migrate-db' ); ?>
 	</div>
 
+	<div class="updated warning edge-warning inline-message" style="display: none;">
+		<?php _e( "<strong>Microsoft Edge Not Supported</strong> &mdash; Less than 2% of our customers use Microsoft Edge, so we've decided not to spend time supporting it. We ask that you use Firefox or a Webkit-based browser like Chrome or Safari instead. If this is a problem for you, please let us know.", 'wp-migrate-db' ); ?>
+	</div>
+
 	<?php
 	$hide_warning = apply_filters( 'wpmdb_hide_set_time_limit_warning', false );
-	if ( false == $this->set_time_limit_available() && ! $hide_warning && ! $safe_mode ) {
+	if ( false == $this->util->set_time_limit_available() && ! $hide_warning && ! $safe_mode ) {
 		?>
 		<div class="updated warning inline-message">
 			<?php
@@ -56,6 +60,11 @@
 		} else {
 			$this->template( 'migrate' );
 		}
+
+		if( $this->props->is_pro ){
+			$this->template( 'backups' );
+		}
+
 		$this->template( 'settings' );
 		$this->template( 'addons' );
 		$this->template( 'help' );
