@@ -1285,3 +1285,21 @@ html #footer-content p, #footer-content p:last-of-type, #footer-content p:nth-of
 	max-width: 200px;
 	height: auto;
 }
+
+@media (max-width: 640px) {
+	#aosa-section .inner {
+		display: block;
+	}
+	.aosa-logo, .aosa-title {
+		width: 100%;
+		text-align: center;
+		float: none;
+		padding: 10px;
+	}
+	.aosa-logo {
+		border: none;
+	}
+	#aosa-section h4 {
+		font-size: 20px;
+	}
+}
