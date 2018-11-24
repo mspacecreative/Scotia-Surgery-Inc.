@@ -322,8 +322,6 @@ h1.rule:before, h1.rule:after {
 }
 
 #banner-container {
-	background: url('images/blue-sky.jpg') no-repeat center center scroll;
-	background-size: cover;
 	width: 100%;
 	border-bottom: 5px solid #fff;
 	overflow: hidden;
